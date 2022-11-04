@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1D1128;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#text_container h1{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+#text_container h1 i:hover{
+    transform: rotate(360deg);
+    transition: 1.0s;
+}
+
+#text_container h2{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+
+form{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form h1{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+form input[type='text']{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+form select{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+select option[value="Haute"]{
+    background: red;
+}
+
+select option[value="Moyenne"]{
+    background: orange;
+}
+
+select option[value="Basse"]{
+    background: green;
+}
+
+form input[type='submit']{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #87AB69;
+}
+
+form input[type='submit']:hover{
+    transform: translateY(-5px);
+    transition: 2.0s;
+}
+
+
+/*Liste des tâches :*/
+#task_container #task_container_title{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.task{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #5941A9;
+    width: 50%;
+    border-radius: 30px;
+
+}
