@@ -56,15 +56,15 @@ form select{
     padding: 10px;
 }
 
-select option[value="Haute"]{
+select option[value="Haut"]{
     background: red;
 }
 
-select option[value="Moyenne"]{
+select option[value="Moyen"]{
     background: orange;
 }
 
-select option[value="Basse"]{
+select option[value="Bas"]{
     background: green;
 }
 

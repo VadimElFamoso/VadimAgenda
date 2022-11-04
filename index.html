@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
@@ -10,33 +11,23 @@
 
     <body>
     <div id="text_container">
-    <h1>Vadim'Agenda <i class="em em-nerd_face" aria-role="presentation" aria-label="NERD FACE"></i> <i class="em em-lower_left_ballpoint_pen" aria-role="presentation" aria-label=""></i></h1>
-    <h2>Entrer ma prochaine tâche :</h2>
+        <h1>Vadim'Agenda <i class="em em-nerd_face" aria-role="presentation" aria-label="NERD FACE"></i> <i class="em em-lower_left_ballpoint_pen" aria-role="presentation" aria-label=""></i></h1>
+        <h2>Entrer ma prochaine tâche :</h2>
     </div>
 
     <form action="">
         <input type="text"><br>
         <h1>Degré d'urgence <i class="em em-checkered_flag" aria-role="presentation" aria-label="CHEQUERED FLAG"></i> :</h1>
             <select>
-                <option value="Haute">Haute</option>
-                <option value="Moyenne">Moyenne</option>
-                <option value="Basse">Basse</option>
+                <option value="Haut">Haut</option>
+                <option value="Moyen">Moyen</option>
+                <option value="Bas">Bas</option>
             </select><br>
-        <input type="submit" value="Ajouter une tâche" >
+        <input id='add_button'type="submit" value="Ajouter une tâche" >
     </form>
 
     <div id="task_container">
         <h1 id="task_container_title">Tâches à venir :</h1>
-
-    <div class="task">
-        <h1>Tâche</h1>
-        <p>Blablabla je dois faire ceci</p>
-    </div>
-
-    <div class="task">
-        <h1>Tâche</h1>
-        <p>Blablabla je dois faire ceci</p>
-    </div>
 
     <div class="task">
         <h1>Tâche</h1>
